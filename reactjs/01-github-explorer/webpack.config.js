@@ -31,7 +31,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\. (j|t)sx$/,
+        test: /\.(j|t)sx$/,
         exclude: /nodue_modules/,
         use: {
           loader: 'babel-loader',

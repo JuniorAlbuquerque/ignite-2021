@@ -1,6 +1,11 @@
 import React from 'react';
+import { IRepository } from './RepositoryList';
 
-const RepositoryItem = (props: any) => {
+interface RepositoryItemProps {
+  repository: IRepository
+}
+
+const RepositoryItem = (props: RepositoryItemProps) => {
   return (
     <li>
       <strong>{props.repository.name ?? 'Default'}</strong>
