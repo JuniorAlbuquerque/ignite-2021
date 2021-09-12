@@ -17,7 +17,7 @@ function RepositoryList() {
 
       <ul>
         {
-          repositories.map(repository => 
+          repositories.map((repository: any) => 
             <RepositoryItem key={repository.id} repository={repository}/>
           )
         }

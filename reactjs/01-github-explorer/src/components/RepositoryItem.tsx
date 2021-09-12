@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RepositoryItem = (props) => {
+const RepositoryItem = (props: any) => {
   return (
     <li>
       <strong>{props.repository.name ?? 'Default'}</strong>
