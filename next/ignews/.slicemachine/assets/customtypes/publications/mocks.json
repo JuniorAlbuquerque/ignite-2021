@@ -1,0 +1,24 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "publications",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "title": "directly",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Culpa duis Lorem ipsum. Excepteur ex sint qui aute id incididunt amet pariatur voluptate fugiat qui eiusmod velit magna. Ex commodo incididunt ex nulla et consectetur sunt officia.",
+        "spans": []
+      }
+    ],
+    "slices": []
+  }
+}
